@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        <meta name="author" content="Kian Chen">
+        <link rel="canonical" href="https://Kian-Chen.github.io/">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>My Docs</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">My Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="about/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#0" class="nav-link">0.    生活中的光现象</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#1" class="nav-link">1.  光是怎么产生的</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#1_1" class="nav-link">1.  光源、光线、光谱范围</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#2" class="nav-link">2.  能级跃迁辐射</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#3" class="nav-link">3.  偶极辐射和同步辐射</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#4" class="nav-link">4. 热辐射与普朗克的量子假设</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#5" class="nav-link">5.  束缚电子产生激光</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#6" class="nav-link">6.  自由电子产生激光</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#2_1" class="nav-link">2.光的传播</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="0">0.    生活中的光现象<a class="headerlink" href="#0" title="Permanent link">&para;</a></h1>
+<p>前沿科学中的现象。激光惯性约束核聚变，激光冷却与汇聚，引力波探测，波色-爱因斯坦凝聚，极光引雷。
+产生这些现象的机理是什么，为什么会有这些现象。
+光是什么、光是如何产生的、光是如何传播与调控的、光是如何探测的、光是如何与物质相互作用的、光是如何应用的。
+1、各种光学现象描述、由现象到重要性、由现象到特点、由现象到研究内容</p>
+<h1 id="1">1.  光是怎么产生的<a class="headerlink" href="#1" title="Permanent link">&para;</a></h1>
+<h2 id="1_1">1.  光源、光线、光谱范围<a class="headerlink" href="#1_1" title="Permanent link">&para;</a></h2>
+<p>光源是任何能发光的物体，可以按照原理、性质、尺寸分类
+根据性质（相干性 普通光源、激光）
+激光光源还可以向下继续分类：
+束缚电子产生：材料or运行模式（连续还是脉冲）
+还是自由电子产生的（只能是脉冲，但是可以根据波长分类）
+尺寸分为点光源（只有空间位置，没有体积概念）和面光源（扩展光源，有位置和体积）
+还可以根据来源分为天然光源和人造光源
+普通光源按照产生原理可分为能级、
+光线和光束：
+光线：光能传播方向的几何线
+光束：有一定几何关系的光线的集合</p>
+<p>光谱范围：
+电磁波谱（广义光学）、可见光光谱（狭义的光学）
+波谱的应用：不同长度尺度应用不同</p>
+<p>辐射度学单位</p>
+<ol>
+<li>
+<p>光谱辐射能：（在波长<span class="arithmatex"><span class="MathJax_Preview">\lambda</span><script type="math/tex">\lambda</script></span>附近单位的波长间隔）光波携带能量离开光源向外辐射</p>
+</li>
+<li>
+<p>辐射通量（功率）：单位时间内通过某一面积的辐射能</p>
+</li>
+<li>
+<p>强度：辐射源沿着某一方向单位立体角内发出的辐射通量</p>
+</li>
+<li>
+<p>出射度（辐出度）：从辐射源表面单位面积发射出的辐射通量</p>
+</li>
+<li>
+<p>亮度：</p>
+</li>
+<li>
+<p>照度</p>
+</li>
+</ol>
+<h2 id="2">2.  能级跃迁辐射<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p>卢瑟福原子有核模型（原子核与电子在院子中如何分布）
+与天体运行规律一致（经典力学怎么怎么样，电磁学怎么怎么样）
+原子光谱（波尔提出两点定态假设）只有当原子从一个~ <span class="arithmatex"><span class="MathJax_Preview">\to</span><script type="math/tex">\to</script></span> 分子光谱 <span class="arithmatex"><span class="MathJax_Preview">\to</span><script type="math/tex">\to</script></span> 能带结构
+X射线光谱 莫塞莱定律 </p>
+<h2 id="3">3.  偶极辐射和同步辐射<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>电磁波是电荷的震动，最简单的模型是偶极子震动。偶极辐射主要应用在微波。</p>
+<p>单摆震动因为存在横向力，电荷想震动出电磁波需要什么横向力？</p>
+<p>匀速直线的电荷只会因为相对论效应影响电力线密度，而不产生电磁波，只有加速的电荷才可以产生电磁波。</p>
+<p>当电荷从静止加速，电力线发生扭曲，产生光脉冲</p>
+<p>同步辐射：高速运动的带电粒子速度发生变化时候产生的（为什么前向辐射）</p>
+<ol>
+<li>高亮度 比X-ray 强多了</li>
+<li>宽光谱</li>
+<li>高准直</li>
+<li>时间性</li>
+<li>偏振性</li>
+<li>相干性</li>
+<li>高纯净</li>
+</ol>
+<h2 id="4">4. 热辐射与普朗克的量子假设<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>热辐射现象</p>
+<p>物体加热后会发出辐射现象。
+温度升高总辐射能增加，短波频段更多</p>
+</li>
+<li>
+<p>光谱辐射出射度 <span class="arithmatex"><span class="MathJax_Preview">r(\lambda ,T)</span><script type="math/tex">r(\lambda ,T)</script></span></p>
+<p>假设热辐射体表面一面元 <span class="arithmatex"><span class="MathJax_Preview">ds</span><script type="math/tex">ds</script></span>，单位时间内从<span class="arithmatex"><span class="MathJax_Preview">ds</span><script type="math/tex">ds</script></span>面出发，波长范围在<span class="arithmatex"><span class="MathJax_Preview">\lambda ~ \lambda + d \lambda</span><script type="math/tex">\lambda ~ \lambda + d \lambda</script></span>，<span class="arithmatex"><span class="MathJax_Preview">dE(\lambda,T)=r(\lambda,T)d\lambda ds</span><script type="math/tex">dE(\lambda,T)=r(\lambda,T)d\lambda ds</script></span>，这个比例系数叫做物体的光谱辐射出射度：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">r(\lambda ,T) = \frac{dE(\lambda,T)}{d\lambda ds}</div>
+<script type="math/tex; mode=display">r(\lambda ,T) = \frac{dE(\lambda,T)}{d\lambda ds}</script>
+</div>
+<p>光谱辐射出射度：在单位时间内，从辐射体单位表面积上辐射出的在波长位于<span class="arithmatex"><span class="MathJax_Preview">\lambda</span><script type="math/tex">\lambda</script></span>附近的能量</p>
+</li>
+<li>
+<p>辐射出射度（总辐射本领）R</p>
+<p>单位时间上从面元<span class="arithmatex"><span class="MathJax_Preview">ds</span><script type="math/tex">ds</script></span>上辐射的总能量<span class="arithmatex"><span class="MathJax_Preview">dE</span><script type="math/tex">dE</script></span>, 有</p>
+</li>
+<li>
+<p>光谱吸收系数（单色吸收本领）<span class="arithmatex"><span class="MathJax_Preview">\alpha (\lambda,T)</span><script type="math/tex">\alpha (\lambda,T)</script></span></p>
+</li>
+<li>
+<p>光谱辐射出射度与光谱吸收系数的关系</p>
+<p>基尔霍夫理想实验</p>
+</li>
+<li>
+<p>绝对黑体和黑体辐射定律</p>
+<ol>
+<li>
+<p>Stefan-Boltzman : <span class="arithmatex"><span class="MathJax_Preview">R=\sigma T^4</span><script type="math/tex">R=\sigma T^4</script></span></p>
+</li>
+<li>
+<p>Wien位移（热统出发）</p>
+<p>任何温度下极大值对应温度波长与绝对温度成反比</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">r_0 (\lambda ,T)</div>
+<script type="math/tex; mode=display">r_0 (\lambda ,T)</script>
+</div>
+</li>
+<li>
+<p>Rayleigh（电磁出发）</p>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="5">5.  束缚电子产生激光<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>自发辐射、受激吸收、受激辐射</p>
+<p>原子结构一般的实际情况较为复杂，承诺过程简化为而能级系统讨论（当然两能级无法产生激光）</p>
+<p>电子跃迁分为自发辐射、受激吸收、受激辐射</p>
+<ol>
+<li>
+<p>自发跃迁指的是院子在没有外界干预情况下电子会由处于激发态的高能级<span class="arithmatex"><span class="MathJax_Preview">E_2</span><script type="math/tex">E_2</script></span>自动跃迁到<span class="arithmatex"><span class="MathJax_Preview">E_1</span><script type="math/tex">E_1</script></span></p>
+<p>单位时间跃迁粒子数：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\frac{\mathrm{d}N_{21}}{\mathrm{d}t}=A_{21}N_2</div>
+<script type="math/tex; mode=display">\frac{\mathrm{d}N_{21}}{\mathrm{d}t}=A_{21}N_2</script>
+</div>
+</li>
+<li>
+<p>受激吸收</p>
+<p>~~
+下能级跃迁到上能级，与下能级粒子数和光场密度有关：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\frac{\mathrm{d}N_{12}}{\mathrm{d}t}=B_{12}u\left(\upsilon\right)N_1</div>
+<script type="math/tex; mode=display">\frac{\mathrm{d}N_{12}}{\mathrm{d}t}=B_{12}u\left(\upsilon\right)N_1</script>
+</div>
+</li>
+<li>
+<p>受激辐射</p>
+<p>上能级电子在光刺激下向下跃迁，向外辐射的光子和入射光子完全相同，波列一样（量子场论）</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\frac{\mathrm{d}N_{21}}{\mathrm{d}t}=B_{21}u\left(\upsilon\right)N_2</div>
+<script type="math/tex; mode=display">\frac{\mathrm{d}N_{21}}{\mathrm{d}t}=B_{21}u\left(\upsilon\right)N_2</script>
+</div>
+</li>
+<li>
+<p>以上三个公式为爱因斯坦公式</p>
+<p>运用热统，可以知道（待讨论）：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">B_{12}=B_{21}=B</div>
+<script type="math/tex; mode=display">B_{12}=B_{21}=B</script>
+</div>
+</li>
+</ol>
+</li>
+<li>
+<p>原子能级及粒子数正常分布</p>
+<p>不同能级上粒子数遵循热统规律，如玻尔兹曼分布规律：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">N_n\propto e^{-\frac{E_n}{kT}}</div>
+<script type="math/tex; mode=display">N_n\propto e^{-\frac{E_n}{kT}}</script>
+</div>
+<p>激发态上极少</p>
+</li>
+<li>
+<p>能级寿命</p>
+<p>激发态的高能级<span class="arithmatex"><span class="MathJax_Preview">E_2</span><script type="math/tex">E_2</script></span>上粒子<span class="arithmatex"><span class="MathJax_Preview">N_2</span><script type="math/tex">N_2</script></span>由于自动跃迁随时间减小</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\mathrm{d}N_2=-\mathrm{d}N_{21}=-A_{21}\mathrm{d}t</div>
+<script type="math/tex; mode=display">\mathrm{d}N_2=-\mathrm{d}N_{21}=-A_{21}\mathrm{d}t</script>
+</div>
+<p>故</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">N_2=e^{-\frac{t}{A_21}}</div>
+<script type="math/tex; mode=display">N_2=e^{-\frac{t}{A_21}}</script>
+</div>
+<p>令</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\tau=\frac{1}{A_{21}}</div>
+<script type="math/tex; mode=display">\tau=\frac{1}{A_{21}}</script>
+</div>
+<p>平均寿命=自然寿命=寿命均为<span class="arithmatex"><span class="MathJax_Preview">\tau</span><script type="math/tex">\tau</script></span></p>
+<p>某些激发态<span class="arithmatex"><span class="MathJax_Preview">\tau</span><script type="math/tex">\tau</script></span>比较长，成为亚稳态</p>
+<p>在测不准方向考虑：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">\tau \Delta \upsilon=1</div>
+<script type="math/tex; mode=display">\tau \Delta \upsilon=1</script>
+</div>
+<p><span class="arithmatex"><span class="MathJax_Preview">\Delta \upsilon</span><script type="math/tex">\Delta \upsilon</script></span>为自然谱线线宽</p>
+<p>碰撞和多普勒都会缩短寿命（展宽）</p>
+</li>
+<li>
+<p>光的吸收与增益</p>
+<p>一束光假设在兼具高低能级下两种现象同时起作用</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">受激吸收：~~\mathrm{d}N_{12}=B_{12}u\left(\upsilon\right)N_1\mathrm{d}t</div>
+<script type="math/tex; mode=display">受激吸收：~~\mathrm{d}N_{12}=B_{12}u\left(\upsilon\right)N_1\mathrm{d}t</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">受激辐射：~~\mathrm{d}N_{21}=B_{21}u\left(\upsilon\right)N_2\mathrm{d}t</div>
+<script type="math/tex; mode=display">受激辐射：~~\mathrm{d}N_{21}=B_{21}u\left(\upsilon\right)N_2\mathrm{d}t</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">\frac{\mathrm{d}N_{21}}{\mathrm{d}N_{12}}=\frac{B_{21}u\left(\upsilon\right)N_2\mathrm{d}t}{B_{12}u\left(\upsilon\right)N_1\mathrm{d}t}=\frac{N_2}{N_1}</div>
+<script type="math/tex; mode=display">\frac{\mathrm{d}N_{21}}{\mathrm{d}N_{12}}=\frac{B_{21}u\left(\upsilon\right)N_2\mathrm{d}t}{B_{12}u\left(\upsilon\right)N_1\mathrm{d}t}=\frac{N_2}{N_1}</script>
+</div>
+<p>一般热平衡下都是光吸收；当非热平衡下宏观效果为光放大，称为激活介质或者增益介质</p>
+<p>当要实现激光，应当使受激辐射占主导，应抑制自发辐射与自发吸收</p>
+</li>
+<li>
+<p>激活介质中布局反转的实现</p>
+<p>首先，我们引入三能级系统（亚稳态向基态）：
+1.  激发态
+2.  亚稳态
+3.  基态</p>
+<p>构造上能级粒子数大于下能级粒子数（泵浦、激励、抽运）</p>
+<p>甚至还有四能级</p>
+</li>
+<li>
+<p>谐振腔的作用</p>
+<p>利用反射镜增益受激辐射从而压制自发辐射</p>
+</li>
+<li>
+<p>激光器的基本组成</p>
+<p>激励能源<span class="arithmatex"><span class="MathJax_Preview">\to</span><script type="math/tex">\to</script></span>激活介质<span class="arithmatex"><span class="MathJax_Preview">\to</span><script type="math/tex">\to</script></span>光学谐振腔<span class="arithmatex"><span class="MathJax_Preview">\to</span><script type="math/tex">\to</script></span>激光</p>
+</li>
+<li>
+<p>增益的阈值条件</p>
+<ol>
+<li>增益：激光介质的增益放大</li>
+<li>损耗：端面的衍射、吸收、透射、散射等</li>
+</ol>
+<p>假设有一入射光<span class="arithmatex"><span class="MathJax_Preview">I_1</span><script type="math/tex">I_1</script></span></p>
+<div class="arithmatex">
+<div class="MathJax_Preview">光放大：I_2=I_1e^{GL}</div>
+<script type="math/tex; mode=display">光放大：I_2=I_1e^{GL}</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">光反射:I_3=R_2I_2</div>
+<script type="math/tex; mode=display">光反射:I_3=R_2I_2</script>
+</div>
+<p><span class="arithmatex"><span class="MathJax_Preview">G</span><script type="math/tex">G</script></span>为增益系数，<span class="arithmatex"><span class="MathJax_Preview">L</span><script type="math/tex">L</script></span>为谐振腔长度，无论怎样，经过一次谐振之后光强不应减小</p>
+</li>
+<li>
+<p>激光的纵模和横模</p>
+<p>纵模纵向长度上应稳定产生驻波</p>
+<p>激光器产生的不一定是单一波长，驻波的波长可以有多个</p>
+<p>横模：激光腔内截面光强分布</p>
+</li>
+<li>
+<p>激光的特点</p>
+<ol>
+<li>方向性好</li>
+<li>相干性好</li>
+<li>单色性好</li>
+<li>亮度高</li>
+</ol>
+<p>自由电子也可以产生光放大（相对前沿）</p>
+</li>
+</ol>
+<h2 id="6">6.  自由电子产生激光<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>相位约束</p>
+<p>受激辐射产生激光需要增益介质、谐振腔、激励源，通过能级跃迁产生辐射，波长固定、范围固定，能否找到一种激光，波长连续可调、覆盖范围光——<strong>自由电子激光</strong>。</p>
+<p><strong>自由电子注入到波荡器磁场中可以产生激光</strong></p>
+<p>当电子在波荡器内做平面正弦运动，波荡器的磁场周期（单位属于长度）记为<span class="arithmatex"><span class="MathJax_Preview">\lambda _u</span><script type="math/tex">\lambda _u</script></span>，辐射激光的波长记为<span class="arithmatex"><span class="MathJax_Preview">\lambda_e</span><script type="math/tex">\lambda_e</script></span>。</p>
+<p>假设</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\frac{\lambda_u}{}
+</div>
+<script type="math/tex; mode=display">
+\frac{\lambda_u}{}
+</script>
+</div>
+</li>
+<li>
+<p>放大条件</p>
+<p>沿着<span class="arithmatex"><span class="MathJax_Preview">z</span><script type="math/tex">z</script></span>方向传播的光，其光矢量<span class="arithmatex"><span class="MathJax_Preview">\vec{E}</span><script type="math/tex">\vec{E}</script></span>在电子轨道平面沿<span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span>方向为</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\vec{E}\cos \left( \frac{2\pi}{\lambda_e}z - \omega_e t + \phi_0 \right)\vec{i_0}
+</div>
+<script type="math/tex; mode=display">
+\vec{E}\cos \left( \frac{2\pi}{\lambda_e}z - \omega_e t + \phi_0 \right)\vec{i_0}
+</script>
+</div>
+<p>波荡电子有沿<span class="arithmatex"><span class="MathJax_Preview">x</span><script type="math/tex">x</script></span>方向的速度，当光场与运动电子相互作用，使电子减速，其能量将以辐射释放。（电子能量减少，光场能量增加）</p>
+<p>单位时间内光场对电子所做功和电子能量变化为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+-\vec{e}\cdot\vec{E}=\frac{\mathrm{d}mc^2}{\mathrm{d}t}
+</div>
+<script type="math/tex; mode=display">
+-\vec{e}\cdot\vec{E}=\frac{\mathrm{d}mc^2}{\mathrm{d}t}
+</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+m=m_0\gamma=m_0\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}
+</div>
+<script type="math/tex; mode=display">
+m=m_0\gamma=m_0\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}
+</script>
+</div>
+<p>要实现光放大，应有<span class="arithmatex"><span class="MathJax_Preview">\vec{e}\cdot\vec{E}&gt;0</span><script type="math/tex">\vec{e}\cdot\vec{E}>0</script></span>，即<span class="arithmatex"><span class="MathJax_Preview">\vec{e}</span><script type="math/tex">\vec{e}</script></span>与<span class="arithmatex"><span class="MathJax_Preview">\vec{E}</span><script type="math/tex">\vec{E}</script></span>同方向。</p>
+<p>故光辐射电矢量<span class="arithmatex"><span class="MathJax_Preview">\vec{E}</span><script type="math/tex">\vec{E}</script></span>方向也要如正弦运动的电子一般每半个周期改变方向，即每隔<span class="arithmatex"><span class="MathJax_Preview">\frac{\lambda_e}{2}</span><script type="math/tex">\frac{\lambda_e}{2}</script></span>改变一次方向。</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+相干关系：~~~~~~~\frac{\lambda_u}{v_z}=\frac{n\lambda_e+\lambda_u}{c}, n \in \mathbb{N}^*
+</div>
+<script type="math/tex; mode=display">
+相干关系：~~~~~~~\frac{\lambda_u}{v_z}=\frac{n\lambda_e+\lambda_u}{c}, n \in \mathbb{N}^*
+</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+受激放大条件：\frac{\lambda_u}{v_z}=\frac{n\lambda_e+\lambda_u}{c}, n \in \mathbb{O}
+</div>
+<script type="math/tex; mode=display">
+受激放大条件：\frac{\lambda_u}{v_z}=\frac{n\lambda_e+\lambda_u}{c}, n \in \mathbb{O}
+</script>
+</div>
+<p>故当受激放大条件满足时，相干条件自动满足。</p>
+<p>当<span class="arithmatex"><span class="MathJax_Preview">n=1</span><script type="math/tex">n=1</script></span>时，有</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\lambda_e=\frac{\lambda_u}{2\gamma^2}\left( 1+\frac{E_u^2}{2} \right)
+</div>
+<script type="math/tex; mode=display">
+\lambda_e=\frac{\lambda_u}{2\gamma^2}\left( 1+\frac{E_u^2}{2} \right)
+</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\gamma =\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}
+</div>
+<script type="math/tex; mode=display">
+\gamma =\frac{1}{\sqrt{1-\frac{v^2}{c^2}}}
+</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+K_u=0.934B_u\lambda_u
+</div>
+<script type="math/tex; mode=display">
+K_u=0.934B_u\lambda_u
+</script>
+</div>
+</li>
+<li>
+<p>电子群聚</p>
+<p>当电子以均匀脉冲注入，由于电子速度极快，一团电子中部分光放大，部分光衰减。</p>
+<p>故电子应分片群聚，每一片距离为光的波长。</p>
+<p>群聚需要时间，在开始发射前经历很长的波荡器。</p>
+</li>
+<li>
+<p>自由电子激光的运行模式</p>
+<p>几种偏向不同的自由电子激光</p>
+</li>
+<li>
+<p>自由电子激光装置</p>
+<ul>
+<li>合肥红外自由电子激光装置</li>
+<li>大连相干光源</li>
+<li>上海软X射线自由电子激光装置</li>
+<li>SXFEL/SHINE上海硬X射线自由电子激光装置</li>
+</ul>
+</li>
+</ol>
+<h1 id="2_1">2.光的传播<a class="headerlink" href="#2_1" title="Permanent link">&para;</a></h1>
+<ol>
+<li>
+<p>光与介质相互作用的经典模型</p>
+<ol>
+<li>
+<p>光与物质相互作用的经典模型</p>
+<p>洛伦兹电子论：
+1.  物质的原子或者分子体系是一个谐振子
+2.  正电荷不动，电子在其平衡位置做振动
+3.  有固定振动频率</p>
+<p>当有入射光场与介质进行相互作用时，电子在光场作用下，按照入射光频率做受迫振动。</p>
+<p>当电子从入射光场吸收能量，也同事发出与入射光频率相同的次波</p>
+</li>
+<li>
+<p>经典理论的基本方程</p>
+<p>首先，假设每个原子只有一个电子在强迫振动，构成电偶极子的电偶极矩为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\vec{p}=-e\vec{r}
+</div>
+<script type="math/tex; mode=display">
+\vec{p}=-e\vec{r}
+</script>
+</div>
+<p>当有多个电子，</p>
+<p>受迫振动电子的运动方程满足谐振子方程，为：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+m\frac{\mathrm{d}^2\vec{r}}{\mathrm{d}t^2}=-e\vec{E}-f\vec{r}-g\frac{\mathrm{d}\vec{r}}{\mathrm{d}t}
+</div>
+<script type="math/tex; mode=display">
+m\frac{\mathrm{d}^2\vec{r}}{\mathrm{d}t^2}=-e\vec{E}-f\vec{r}-g\frac{\mathrm{d}\vec{r}}{\mathrm{d}t}
+</script>
+</div>
+<p>其中入射光波<span class="arithmatex"><span class="MathJax_Preview">\vec{E}=\overline{E(x)}e^{-i\omega t}</span><script type="math/tex">\vec{E}=\overline{E(x)}e^{-i\omega t}</script></span>，<span class="arithmatex"><span class="MathJax_Preview">f</span><script type="math/tex">f</script></span>为弹性系数，<span class="arithmatex"><span class="MathJax_Preview">g</span><script type="math/tex">g</script></span>为阻尼系数</p>
+<p>经过方程变形，则有</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\frac{\mathrm{d}^2\vec{r}}{\mathrm{d}t^2}+\gamma \frac{\mathrm{d}\vec{r}}{\mathrm{d}t}+\omega_0^2\vec{r}=-e\frac{\vec{E}}{m}
+</div>
+<script type="math/tex; mode=display">
+\frac{\mathrm{d}^2\vec{r}}{\mathrm{d}t^2}+\gamma \frac{\mathrm{d}\vec{r}}{\mathrm{d}t}+\omega_0^2\vec{r}=-e\frac{\vec{E}}{m}
+</script>
+</div>
+</li>
+<li>
+<p>介质的复折射率</p>
+<p>在上述方程，引入试探解</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\overrightarrow{r(t)}=\vec{r_0}e^{-i\omega t}
+</div>
+<script type="math/tex; mode=display">
+\overrightarrow{r(t)}=\vec{r_0}e^{-i\omega t}
+</script>
+</div>
+<p>带入方程</p>
+<p>$$</p>
+<p>$$</p>
+<p>最后，介质的极化强度矢量<span class="arithmatex"><span class="MathJax_Preview">\vec{P}=N\vec{p}=-Ne\vec{r}</span><script type="math/tex">\vec{P}=N\vec{p}=-Ne\vec{r}</script></span>，</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\vec{P}=\frac{N\frac{e^2}{m}}{\left(\omega_0^2-\omega^2-i\gamma\omega\right)}\overline{E(x)}e^{-i\omega t}
+</div>
+<script type="math/tex; mode=display">
+\vec{P}=\frac{N\frac{e^2}{m}}{\left(\omega_0^2-\omega^2-i\gamma\omega\right)}\overline{E(x)}e^{-i\omega t}
+</script>
+</div>
+<p>所以<span class="arithmatex"><span class="MathJax_Preview">\vec{P}</span><script type="math/tex">\vec{P}</script></span>和<span class="arithmatex"><span class="MathJax_Preview">\vec{E}</span><script type="math/tex">\vec{E}</script></span>有相位差，会产生损耗</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\tilde{n}^2=\epsilon=1+\chi_e
+</div>
+<script type="math/tex; mode=display">
+\tilde{n}^2=\epsilon=1+\chi_e
+</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\begin{align*}
+    \begin{split}
+        \begin{array}
+            c n^2-\eta^2=1+\frac{Ne^2}{\epsilon_0m \cdot \frac{}{}} \\
+            cc
+        \end{array}
+        \}\mathrm{Helmholtz~Equations}
+    \end{split}
+\end{align*}
+</div>
+<script type="math/tex; mode=display">
+\begin{align*}
+    \begin{split}
+        \begin{array}
+            c n^2-\eta^2=1+\frac{Ne^2}{\epsilon_0m \cdot \frac{}{}} \\
+            cc
+        \end{array}
+        \}\mathrm{Helmholtz~Equations}
+    \end{split}
+\end{align*}
+</script>
+</div>
+<p>实际情况下物质不仅仅一种固定频率的振子，实际上应该为叠加版：</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\tilde{n}^2=1+\sum_{j}  \frac{N_je_j^2}{\epsilon_0 m_j} \cdot \frac{1}{\left( \omega_{0j}^2\right)-\omega^2-i\gamma_j \omega}
+</div>
+<script type="math/tex; mode=display">
+\tilde{n}^2=1+\sum_{j}  \frac{N_je_j^2}{\epsilon_0 m_j} \cdot \frac{1}{\left( \omega_{0j}^2\right)-\omega^2-i\gamma_j \omega}
+</script>
+</div>
+</li>
+</ol>
+</li>
+<li>
+<p>光的吸收</p>
+<ol>
+<li>
+<p>介质的吸收现象</p>
+<p>经典电子论的电子运动的基本方程为：
+$$
+m\frac{\mathrm{d}^2\vec{r}}{\mathrm{d}t^2}=-e\vec{E}-f\vec{r}-g\frac{\mathrm{d}\vec{r}}{\mathrm{d}t}
+$$</p>
+<p>成立条件应该满足电子的运动速度<span class="arithmatex"><span class="MathJax_Preview">\upsilon</span><script type="math/tex">\upsilon</script></span>远小于光速<span class="arithmatex"><span class="MathJax_Preview">c</span><script type="math/tex">c</script></span></p>
+<p>因为电场力对电子作用应远大于磁场力</p>
+</li>
+<li>
+<p>介质的吸收规律</p>
+<p>假设光经过<span class="arithmatex"><span class="MathJax_Preview">\mathrm{d}x</span><script type="math/tex">\mathrm{d}x</script></span>厚的介质时照度由<span class="arithmatex"><span class="MathJax_Preview">i</span><script type="math/tex">i</script></span>减小到<span class="arithmatex"><span class="MathJax_Preview">I-\mathrm{d}I</span><script type="math/tex">I-\mathrm{d}I</script></span>，减小的照度正比于<span class="arithmatex"><span class="MathJax_Preview">I</span><script type="math/tex">I</script></span>和<span class="arithmatex"><span class="MathJax_Preview">\mathrm{d}x</span><script type="math/tex">\mathrm{d}x</script></span>，有</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+-\mathrm{d}I=\alpha I\mathrm{d}x
+</div>
+<script type="math/tex; mode=display">
+-\mathrm{d}I=\alpha I\mathrm{d}x
+</script>
+</div>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+-\frac{\mathrm{d}I}{I}=\alpha I \mathrm{d}x
+</div>
+<script type="math/tex; mode=display">
+-\frac{\mathrm{d}I}{I}=\alpha I \mathrm{d}x
+</script>
+</div>
+<p>从<span class="arithmatex"><span class="MathJax_Preview">0</span><script type="math/tex">0</script></span>到<span class="arithmatex"><span class="MathJax_Preview">L</span><script type="math/tex">L</script></span>进行积分，有</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+I=I_0e^{-\alpha L}
+</div>
+<script type="math/tex; mode=display">
+I=I_0e^{-\alpha L}
+</script>
+</div>
+<p>该定律称为Bouguer定律或者Lambert定律</p>
+</li>
+<li>
+<p>液体介质的吸收</p>
+<p>当介质为透明溶液时，吸收系数<span class="arithmatex"><span class="MathJax_Preview">\alpha</span><script type="math/tex">\alpha</script></span>与溶液浓度<span class="arithmatex"><span class="MathJax_Preview">C</span><script type="math/tex">C</script></span>成正比</p>
+</li>
+<li>
+<p>介质的吸收种类</p>
+<ol>
+<li>
+<p>一般吸收：物质对各种波长<span class="arithmatex"><span class="MathJax_Preview">\lambda</span><script type="math/tex">\lambda</script></span>的光的吸收程度几乎相等，即</p>
+<div class="arithmatex">
+<div class="MathJax_Preview">
+\frac{\mathrm{d}\alpha}{\mathrm{d}\lambda} \equiv 0
+</div>
+<script type="math/tex; mode=display">
+\frac{\mathrm{d}\alpha}{\mathrm{d}\lambda} \equiv 0
+</script>
+</div>
+</li>
+<li>
+<p>选择吸收：物质对某些波长的光吸收特别强烈，而对其他波长的光的吸收较少</p>
+<p>选择吸收性是物质呈现颜色的主要原因</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2024-present <a href="https://github.com/Kian-Chen" target="_blank" rel="noopener noreferrer">Kian Chen</a></p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 39, "previous": 37, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.5.3
+Build Date UTC : 2024-01-19 10:02:03.063233+00:00
+-->
