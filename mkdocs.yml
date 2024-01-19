@@ -1,0 +1,27 @@
+site_name: My Docs
+site_url: https://Kian-Chen.github.io/
+
+site_author: Kian Chen
+
+copyright: Copyright &copy; 2024-present <a href="https://github.com/Kian-Chen" target="_blank" rel="noopener noreferrer">Kian Chen</a>
+
+theme:
+  name: mkdocs
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    next: 39     # ->
+    previous: 80 # p
+    previous: 37 # <-
+    search: 83   # s
+
+nav:
+    - Home: index.md
+    - About: about.md
+markdown_extensions:
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+
+extra_javascript:
+    - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
